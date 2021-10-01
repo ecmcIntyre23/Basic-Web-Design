@@ -1,0 +1,250 @@
+/* Global Styles */
+body {
+    background-color: #320000;
+    margin: 10px;
+    padding: 0;
+}
+
+img {
+    display: block;
+    min-width: 100%;
+    margin: 0 auto;
+}
+
+/* Mobile Styles */
+#container {
+    background-color: #320000;
+    margin: 10px;
+    border: 4px solid #876F7D;
+}
+
+nav, section, aside, .col, footer {
+    background-color: #FFD487;
+    padding: 20px;
+    margin: 10px;
+    border-radius:10px ;
+    border: 4px solid #A18B05;
+}
+
+
+
+header {
+    background-image: url(../images/Scenic_Chattanooga_Riverfront_Day_f2ead361-e10d-46cb-9e97-e31e6de83afb.jpg);
+    background-size: cover;
+    padding: 60px  0;
+}
+
+header h1 {
+    color:#FFD487;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+nav li a {
+    display: block;
+    background-color: #320000;
+    color: #FFD487;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px 0;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+.button {
+    display: block;
+    background-color: #320000;
+    color: #FFD487;
+    height: 60px;
+    width: 175px;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px auto;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 10px;
+}
+nav li a:hover, .button a:hover {
+    background-color: #320000;
+    text-shadow: 2px 2px 2px #000;
+}
+
+
+h2, h3 {
+    color: #320000;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+section img, aside img {
+width: 50%;
+}
+
+
+.button:hover {
+    background-color: #320000;
+    text-shadow: 2px 2px 2px #000;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    color: #468C58;
+}
+ 
+.single_col {
+    width: 83%;
+}
+audio, video {
+    display: block;
+    margin: 20px auto;
+    width:75%
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+.gallery_img {
+    border: 4px solid #320000;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+table {
+    display: none;
+}
+#lower_flex img{
+    width: 50%;
+}
+#lower_flex {
+    display: none;
+}
+
+
+
+/* Tablet Styles */
+
+@media(min-width: 768px) {
+    header {
+        padding: 125px;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        width: 200px
+    }
+
+    #upper_flex {
+        display: flex;
+    }
+
+    section, aside {
+        width: 50%;
+    }
+
+    aside img {
+        width: 50%;
+    }
+
+    .col img {
+        width: 60%;
+        border-radius: 10px;
+        border: 4px solid #320000;
+    }
+
+    .single_col {
+        width: 95%;
+    }
+    table {
+        display: none;
+    }
+    #lower_flex {
+        display: none;
+}
+}
+
+/* Desktop Styles */
+
+@media(min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin:20px auto;
+        border: 4px solid #A18B05;
+        border-radius: 20px
+    }
+
+    header {
+        border-radius: 20px 20px 0 0;
+    }
+
+    nav li a {
+        margin: 0 20px;
+    }
+
+    #lower_flex {
+        display: flex;
+    }
+
+    .col img {
+        width: 100%;
+    }
+
+    .col {
+        width:100%
+    }
+
+    .single_col {
+        width: 100%;
+}
+
+table, tr, td {
+border: 4px solid #320000;
+padding: 10px;
+margin: 10px;
+}
+
+ table img {
+     width: 100%;
+ }
+
+ .gallery {
+     display: none;
+ }
+
+ table {
+     display: block;
+ }
+ .single_col {
+    width: 100%;
+ }
+ #lower_flex {
+    display: none;
+ }
+}
